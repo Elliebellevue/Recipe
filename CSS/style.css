@@ -1,4 +1,46 @@
-html {
+/* html {
   height: 100%;
   width: 100%;
+} */
+
+body {
+  background-image: url('');
+  background: #000;
+  color: #caa151;
+  font-family: "Josefin Sans", sans-serif;
+  /*font-weight: bold; */
+}
+
+h1, h2, h3 {
+  font-family: "Berkshire Swash", sans-serif;
+  color: #caa151;
+  text-shadow: 3px 3px 3px #510321
+  font-style: oblique; 
+  /*font-size:30px; */ 
+}
+
+p {
+ color: aqua; 
+}
+
+li {
+  color: burlywood
+}
+
+ul
+ol
+hr
+span
+figure
+input
+fieldset {
+  
+}
+
+.wrapper {
+  display: flex;
+}
+
+.wrapper > div {
+  flex: 1;
 }
